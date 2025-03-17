@@ -20,8 +20,8 @@
 
 a.knap:hover {background-color: rgb(245, 245, 241);}
 
-header{background-color: rgb(191, 208, 194);}
-body{background-color: rgb(191, 208, 194);}
+header{background-color: rgb(246, 255, 234);}
+body{background-color: rgb(246, 255, 234);}
 li{list-style: none;}
 
 a{
@@ -51,8 +51,21 @@ footer{background-color: rgb(249, 250, 237);}
         font-family:"skrift";
         src: url(../Front/Syncopate-Regular.ttf);
     }
-        p{font-family: "skrift";}
+        p{
+            font-family: "skrift";
 
+        }
+    
+    .centered-text 
+        {
+            text-align: center; /* Centrerer teksten vandret */
+            /* padding: 100px; */
+        }
+    .spaced-text {
+            text-align: center; /* Centrerer teksten vandret */
+            letter-spacing: 2px; /* Mere luft mellem bogstaver */
+            line-height: 1.8; /* Mere luft mellem linjerne */
+        }
 
 @font-face 
     {
@@ -60,7 +73,28 @@ footer{background-color: rgb(249, 250, 237);}
         src: url(../Front/Italiana-Regular.ttf);
     }
         h1,h2,h3 ul,li{font-family: "overskrift";}
+   .h1 h2
+   {
+font-size: 10%;
+   }
 
+
+    .small-heading 
+        {
+            font-size: 20px;
+
+        }
+    
+    .small-heading-calender
+        {
+            font-size: 20px;
+        }
+
+    .red-heading 
+        {
+            color: rgb(175, 47, 105);
+        }
+        
 
  .centered-title 
     {
@@ -107,6 +141,7 @@ body
     }
     
 .menu a 
+
     {
         text-decoration: none;
         color: rgb(85, 84, 84);
@@ -119,13 +154,50 @@ body
     {
         writing-mode: vertical-rl;
         text-orientation: upright;
+        color: rgb(189, 58, 119)
     }
 
 .divider 
     {
         width: 90%;  
         height: 2px; 
-        background-color: rgb(249, 255, 228); 
+        background-color: rgb(185, 67, 118); 
         margin: 20px auto; 
     }
-    
+
+    img 
+    {
+        width: 700px;  
+        height: 400;
+        object-fit: cover;  
+        display: block;
+        margin: auto; /* Centrerer billedet horisontalt */
+    }
+
+    body 
+    {
+        padding: 0 30px; /* Giver 20px luft på hver side */
+    }
+
+    .custom-button 
+    {
+        display: flex;
+        justify-content: center;
+
+       
+        padding: 10px, 2px;
+
+        background-color: #b21a6e;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: 0.3s;
+     
+
+      }
+      
+      .custom-button:hover 
+      {
+        background-color: #000000;
+      }

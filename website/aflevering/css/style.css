@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(249, 250, 237); /* Lys grå baggrund */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.ramme {
+    background-color: #ffffff; /* Hvid ramme */
+    border: 2px solid #ffffff; /* Sort kant omkring rammen */
+    padding: 20px;
+    margin: 50px;
+    max-width: 400px;
+    text-align: center;
+}
